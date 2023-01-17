@@ -78,5 +78,6 @@ Digging deeper by looking at value counts for all the categorical attributes, it
 
 Overall, 56.94% of the users chose to accept the coupons presented to them.
 
-image.png
+<img width="1035" alt="image" src="https://user-images.githubusercontent.com/90078929/212805114-5386f047-47e5-4956-8be5-76d707935072.png">
+
 
