@@ -58,7 +58,8 @@ The attributes of this data set include:
 
 **Analysis Notebook**
 
-The data exploration, cleaning and analysis is performed in the Jupyter notebook 'coupon analysis.ipynb'. 
+The data exploration, cleaning and analysis is performed in the Jupyter notebook 'coupon analysis.ipynb' - 
+https://github.com/aditwal/UCB-ML-5.1/blob/main/coupon%20analysis.ipynb
 
 **Data Exploration and Cleaning**
 
