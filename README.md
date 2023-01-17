@@ -96,85 +96,125 @@ From the above analysis,it can be hypothesized that drivers who go to bar more t
 1.  3816 drivers were presented with the 'Coffee' coupons, among them 49.63% of the drivers accepted the coupons.
 2.  Coupon acceptance rates for drivers with different Destination were as follows - 
 
-  Destination       Acceptance rate
-    Home               0.362613
-    No Urgent Place    0.578178
-    Work               0.440000
-
-    Image 
+	Destination       Acceptance rate. 
+	Home               0.362613. 
+	No Urgent Place    0.578178. 
+	Work               0.440000. 
+	
+	<img width="1032" alt="image" src="https://user-images.githubusercontent.com/90078929/212858936-7f3ab386-f868-4baf-8137-7c3cfdb61b06.png">
 
     Based on the analysis, drivers who are going to no urgent place are more likely to accept coffee coupons. 
 
 3.  Coupon acceptance rates for drivers travelling with different Passenger were as follows - 
 
-   Passenger  Acceptance rate
-    Alone        0.433936
-    Friend(s)    0.597447
-    Kid(s)       0.471503
-    Partner      0.567010
-
-    Image
-
-    It can be observed that drivers travelling with friends or partner are more likely to accept the coffee coupons.
+   Passenger  Acceptance rate. 
+   
+    Alone        0.433936. 
+	
+    Friend(s)    0.597447. 
+	
+    Kid(s)       0.471503. 
+	
+    Partner      0.567010. 
+	
+	
+	<img width="1038" alt="image" src="https://user-images.githubusercontent.com/90078929/212859156-85f4a176-c45c-4ec4-b40e-628d5b40a7ff.png">
+	
+	It can be observed that drivers travelling with friends or partner are more likely to accept the coffee coupons.
 
 4.  Effect of the time on the coupon acceptance rates - 
 
-    Time  Acceptance rate
-    7AM     0.440000
-    10AM    0.634772
-    2PM     0.545455
-    6PM     0.412272
-    10PM    0.429078
+	Time  Acceptance rate
+	
+    7AM     0.440000. 
+	
+    10AM    0.634772. 
+	
+    2PM     0.545455. 
+	
+    6PM     0.412272. 
+	
+    10PM    0.429078. 
+	
 
-    Image
+	<img width="1040" alt="image" src="https://user-images.githubusercontent.com/90078929/212859299-37539d1a-ca6f-446c-a3b7-ffe6c126b782.png">
 
-    It can be seen that drivers in the morning are more likely to accept coffee coupon.
+	It can be seen that drivers in the morning are more likely to accept coffee coupon.
 
 5.  Coupon acceptance rates for drivers based on how frequently they visit the coffeehouse were as follows - 
 
-Coffehouse Freq   Acceptance rate
-    1~3              0.647694
-    4~8              0.682446
-    gt8              0.657895
-    less1            0.480989
-    never            0.175223
+	Coffehouse Freq   Acceptance rate. 
+	
+    1~3              0.647694. 
+	
+    4~8              0.682446. 
+	
+    gt8              0.657895. 
+	
+    less1            0.480989. 
+	
+    never            0.175223. 
+	
 
-    Image
+	<img width="1035" alt="image" src="https://user-images.githubusercontent.com/90078929/212859519-96e0c78e-07cf-4036-a944-91113658cd5f.png">
 
-    Based on the analysis, drivers who go to coffeehouse at least once are more likely to accept coffee coupons
+	Based on the analysis, drivers who go to coffeehouse at least once are more likely to accept coffee coupons
 
 6.  By intuition, the Drivers are more likely to accept coffee coupons for the venue in the same direction. The data also shows the same. 
 
-    Image
+    direction_same:	0.526536. 
+	
+	direction_opp:	0.489355. 
 
 7.  The data also shows that students are more likely to be accept the coffee coupons. Similar results can be seen if education of the drivers are considered. 'Some High School' and 'High School Graduate' who are more likely to be students have more acceptance rate for coffee coupons. The same conclusion can also be arrived when age is considered. Acceptance rates for drivers of age less than 20 years are significantly higher than the other groups. 
 
-    Occupation: Student                 > Acceptance rate: 0.614737
-    Education: High School Graduate     > Acceptance rate: 0.540441
-    Education: Some High School         > Acceptance rate: 0.607143
-    Age: 0-20                           > Acceptance rate: 0.678322
+    Occupation: Student                 > Acceptance rate: 0.614737.
+	
+    Education: High School Graduate     > Acceptance rate: 0.540441. 
+	
+    Education: Some High School         > Acceptance rate: 0.607143. 
+	
+    Age: 0-20                           > Acceptance rate: 0.678322. 
+	
 
-    Image
+    <img width="1038" alt="image" src="https://user-images.githubusercontent.com/90078929/212859858-692ab8a9-3759-4680-a022-7e31402247b7.png">
 
-    Image
+    <img width="1045" alt="image" src="https://user-images.githubusercontent.com/90078929/212860908-c5455c09-d8f9-4d64-a21e-6e2f7a8a2bde.png">
 
-    Image
+    <img width="1032" alt="image" src="https://user-images.githubusercontent.com/90078929/212860978-1ecf088e-d867-4b5a-97f2-35e7327508f6.png">
 
-8.  The data showed that gender, marital status and has_children have no effect on likelihood of accepting the coffee coupons. The same was observed in case of income as well. However, there is a interesting dip in the acceptance for income range $75000 - $87499. 
+
+8.  The data showed that gender, marital status and has_children have no effect on likelihood of accepting the coffee coupons. The same was observed in case of income as well. However, there is a interesting dip in the acceptance for income range $75000 - $87499 as shown in figure below.
 
 Gender  Acceptance rate
+
 Female    0.491112
+
 Male      0.501895
 
+
 Has children      Acceptance rate
+
 0                   0.501695
+
 1                   0.487637
 
+
 Marital Status    Acceptance rate
+
 Divorced             0.517483
+
 Married partner      0.491132
+
 Single               0.514362
+
 Unmarried partner    0.470414
+
 Widowed              0.352941
 
-In conclusion, Students who go to coffeehouse at least once a week traveling in the morning with friends goint to no urgent place are more likely to accept the coffee coupons 
+<img width="1037" alt="image" src="https://user-images.githubusercontent.com/90078929/212861243-74df65a7-b3c3-4dc7-831b-454085978e45.png">
+
+
+
+In conclusion, Students who go to coffeehouse at least once a week traveling in the morning with friends goint to no urgent place are more likely to accept the coffee coupons. The acceptance rate for such drivers are 91.67% while only 49.37% other drivers accept coffee coupons. 
+
