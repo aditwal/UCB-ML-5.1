@@ -1,8 +1,6 @@
-# UCB-ML-5.1
+**UCB-ML&AI Practical Application Assignment 5.1**
 
-**Problem Statement**
-
-## Will a Customer Accept the Coupon?
+### Will a Customer Accept the Coupon?
 
 **Context**
 
@@ -10,17 +8,19 @@ Imagine driving through town and a coupon is delivered to your cell phone for a 
 
 Obviously, proximity to the business is a factor on whether the coupon is delivered to the driver or not, but what are the factors that determine whether a driver accepts the coupon once it is delivered to them? How would you determine whether a driver is likely to accept a coupon?
 
-The goal of this project is to use what you know about visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
+**Problem Statement**
+
+The goal of this project is to use visualizations and probability distributions to distinguish between customers who accepted a driving coupon versus those that did not.
 
 **Deliverables**
 
-Your final product should be a brief report that highlights the differences between customers who did and did not accept the coupons.  To explore the data you will utilize your knowledge of plotting, statistical summaries, and visualization using Python. You will publish your findings in a public facing github repository as your first portfolio piece. 
+A brief report that highlights the differences between customers who did and did not accept the coupons by exploring data utilizing knowledge of plotting, statistical summaries, and visualization using Python.
 
 **Data**
 
-This data comes to us from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’.  There are five different types of coupons -- less expensive restaurants (under \\$20), coffee houses, carry out & take away, bar, and more expensive restaurants (\\$20 - \\$50). 
+This data comes from the UCI Machine Learning repository and was collected via a survey on Amazon Mechanical Turk. The survey describes different driving scenarios including the destination, current time, weather, passenger, etc., and then ask the person whether he will accept the coupon if he is the driver. Answers that the user will drive there ‘right away’ or ‘later before the coupon expires’ are labeled as ‘Y = 1’ and answers ‘no, I do not want the coupon’ are labeled as ‘Y = 0’.  There are five different types of coupons -- less expensive restaurants (under \\$20), coffee houses, carry out & take away, bar, and more expensive restaurants (\\$20 - \\$50). 
 
-Keep in mind that these values mentioned below are average values.
+Note: these values mentioned below are average values.
 
 The attributes of this data set include:
 1. User attributes
@@ -55,3 +55,28 @@ The attributes of this data set include:
 
 3. Coupon attributes
     - time before it expires: 2 hours or one day
+
+**Analysis Notebook**
+
+The data exploration, cleaning and analysis is performed in the Jupyter notebook 'coupon analysis.ipynb'. 
+
+**Data Exploration and Cleaning**
+
+Data contains 12684 rows of 25 attributes and 1 response. Column 'car' has only 108 non-null values. So it may not be useful for analysis. 605 rows has some attributes with null values. Dropping the column 'car' and rows with null values, the usable data in the dataset has 12079 rows of 24 attributes and 1 response. 
+
+Digging deeper by looking at value counts for all the categorical attributes, it reveals 
+
+1. Columns 'age' describes a range but the values are only marked as a single number. Therefore, column 'age' was converted to a range for better readablilty. Furthermore, a new column is added with the first integer value of the range for easier analysis. 
+
+2. Columns 'has_children' describes the number of children the user has. However, the max number is 1.  
+
+3. Since columns 'direction_same' and 'direction_opp' are mutually exclusive, for each record only one of them should be marked as 1 and the other as 0. This was confirmed by checking if the values in the two columns are not equal in any rows. 
+
+4. The column 'Bar_int' is added with the last integer value in the range of column 'Bar' for easier analysis
+
+**Data analysis and visualization**
+
+Overall, 56.94% of the users chose to accept the coupons presented to them.
+
+image.png
+
