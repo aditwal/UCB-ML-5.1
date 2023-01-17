@@ -107,20 +107,20 @@ From the above analysis,it can be hypothesized that drivers who go to bar more t
 
 3.  Coupon acceptance rates for drivers travelling with different Passenger were as follows - 
 
-   Passenger  Acceptance rate. 
-   
-    Alone        0.433936. 
+	Passenger  Acceptance rate.
 	
-    Friend(s)    0.597447. 
+   	Alone        0.433936. 
 	
-    Kid(s)       0.471503. 
+	Friend(s)    0.597447. 
 	
-    Partner      0.567010. 
+	Kid(s)       0.471503. 
 	
+	Partner      0.567010. 
 	
-	<img width="1038" alt="image" src="https://user-images.githubusercontent.com/90078929/212859156-85f4a176-c45c-4ec4-b40e-628d5b40a7ff.png">
-	
-	It can be observed that drivers travelling with friends or partner are more likely to accept the coffee coupons.
+    
+    <img width="1037" alt="image" src="https://user-images.githubusercontent.com/90078929/212863241-394578d0-825c-46ee-8c24-8e18631d69c2.png">
+    
+    It can be observed that drivers travelling with friends or partner are more likely to accept the coffee coupons.
 
 4.  Effect of the time on the coupon acceptance rates - 
 
@@ -135,11 +135,8 @@ From the above analysis,it can be hypothesized that drivers who go to bar more t
     6PM     0.412272. 
 	
     10PM    0.429078. 
-	
-
-	<img width="1040" alt="image" src="https://user-images.githubusercontent.com/90078929/212859299-37539d1a-ca6f-446c-a3b7-ffe6c126b782.png">
-
-	It can be seen that drivers in the morning are more likely to accept coffee coupon.
+    
+    <img width="1040" alt="image" src="https://user-images.githubusercontent.com/90078929/212859299-37539d1a-ca6f-446c-a3b7-ffe6c126b782.png">It can be seen that drivers in the morning are more likely to accept coffee coupon.
 
 5.  Coupon acceptance rates for drivers based on how frequently they visit the coffeehouse were as follows - 
 
